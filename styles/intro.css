@@ -55,4 +55,26 @@
         }
     }
 
+    #tags {
+        width: 60%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin-top: 60px;
+
+        .tag {
+
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+
+            padding: 8px 16px;
+            background-color: var(--gray-300);
+            border-radius: 10%;
+
+            img {
+                padding-right: 8px;
+            }
+        }
+    }
 }
