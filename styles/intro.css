@@ -3,4 +3,19 @@
     height: 100vh;
     background: url(../assets/Background_Intro.png);
     background-size: cover;
+    border: 1px solid green;
+
+    header {
+        margin-top: 128px;
+        display: flex;
+        border: 1px solid blue;
+        align-items: center;
+        justify-content: center;
+
+        img {
+            width: 112px;
+            border-radius: 50%;
+        }
+    }
+
 }
