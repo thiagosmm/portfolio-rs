@@ -13,7 +13,7 @@
         margin-top: 128px;
         display: flex;
         flex-direction: column;
-        border: 1px solid blue;
+        /* border: 1px solid blue; */
         align-items: center;
         justify-content: center;
 
@@ -47,6 +47,7 @@
         }
 
         #after-title {
+            padding-top: 20px;
             width: 60%;
             font: var(--text-sm);
             color: var(--gray-400);
