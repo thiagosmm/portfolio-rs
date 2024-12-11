@@ -46,3 +46,19 @@
 .icon {
     color: red;
 }
+
+.header-2 {
+    display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        p {
+            font: var(--subtitle);
+            color: var(--gray-400);
+        }
+
+        h2 {
+            font: var(--title-md);
+            color: var(--red);
+        }
+}

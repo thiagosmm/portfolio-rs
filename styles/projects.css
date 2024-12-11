@@ -6,22 +6,6 @@
     justify-content: center;
     padding: 72px 120px 144px;
 
-    header {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-
-        p {
-            font: var(--subtitle);
-            color: var(--gray-400);
-        }
-
-        h2 {
-            font: var(--title-md);
-            color: var(--red);
-        }
-    }
-
     #grid-projects {
         margin-top: 56px;
         gap: 24px;
