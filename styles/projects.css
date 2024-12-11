@@ -13,12 +13,12 @@
 
         p {
             font: var(--subtitle);
-            color: var(--red);
+            color: var(--gray-400);
         }
 
         h2 {
             font: var(--title-md);
-            color: var(--gray-300);
+            color: var(--red);
         }
     }
 
