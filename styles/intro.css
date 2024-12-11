@@ -3,7 +3,7 @@
     height: 100vh;
     background: url(../assets/Background_Intro.png);
     background-size: cover;
-    border: 1px solid green;
+
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -70,11 +70,20 @@
 
             padding: 8px 16px;
             background-color: var(--gray-300);
-            border-radius: 10%;
+            border-radius: 50% / 100%;
 
             img {
                 padding-right: 8px;
             }
+            p {
+                font: var(--text-md);
+                color: var(--gray-500);
+            }
         }
+    }
+
+    #arrow-icon {
+        border: 1px solid red;
+        margin-top: 94px;
     }
 }
