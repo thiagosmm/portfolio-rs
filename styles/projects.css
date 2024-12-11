@@ -1,5 +1,5 @@
 .projects {
-    background-color: var(--gray-100);
+    background-color: var(--gray-200);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -22,7 +22,7 @@
         }
     }
 
-    #grid {
+    #grid-projects {
         margin-top: 56px;
         gap: 24px;
 
@@ -30,7 +30,7 @@
         grid-template-columns: repeat(3, 1fr);
 
 
-        .card {
+        .card-project {
             display: flex;
             flex-direction: column;
             align-items: center;
