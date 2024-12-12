@@ -21,16 +21,33 @@
         justify-content: space-between;
         gap: 16px;
         margin-top: 48px;
-
-        border: 1px solid red;
-
-        width: 400px;
+        width: 30%;
 
         .link {
-            border: 1px solid green;
-            display: flex;
-            justify-content: space-between;
+            background: var(--gray-300);
+            height: 68px;
+            border-radius: 8px;
+
+            display: grid;
+            grid-template-columns: 1fr 9fr 1fr;
+
             align-items: center;
+            padding-left: 16px;
+
+            .social-icon {
+                /* border: 1px solid blue; */
+            }
+
+            p {
+                font: 500 16px/140% "Maven Pro", serif;
+                color: var(--gray-500);
+                /* border: 1px solid green; */
+            }
+
+            .arrow-icon {
+
+                /* border: 1px solid yellow; */
+            }
 
         }
     }
