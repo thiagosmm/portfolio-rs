@@ -34,22 +34,11 @@
             align-items: center;
             padding-left: 16px;
 
-            .social-icon {
-                /* border: 1px solid blue; */
-            }
-
             p {
                 font: 500 16px/140% "Maven Pro", serif;
                 color: var(--gray-500);
                 /* border: 1px solid green; */
             }
-
-            .arrow-icon {
-
-                /* border: 1px solid yellow; */
-            }
-
         }
     }
-
 }
