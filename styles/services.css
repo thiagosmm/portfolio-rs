@@ -7,7 +7,7 @@
     align-items: center;
 
     header p {
-        color: var(--yellow);
+        color: var(--green);
     }
 
     #grid-services {
