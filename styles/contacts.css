@@ -38,6 +38,11 @@
         a:hover {
             border: 1px solid var(--blue);
             border-radius: 8px;
+            transition: border 0.5s;
+
+            p {
+                color: var(--blue);
+            }
         }
 
         .link {
@@ -50,10 +55,11 @@
 
             align-items: center;
             padding-left: 16px;
-
+            
             p {
                 font: 500 16px/140% "Maven Pro", serif;
                 color: var(--gray-500);
+                margin-left: 10px;
             }
         }
     }
