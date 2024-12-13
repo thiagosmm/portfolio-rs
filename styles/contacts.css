@@ -28,6 +28,17 @@
         gap: 16px;
         margin-top: 48px;
         width: 30%;
+        box-sizing: border-box;
+
+        a {
+            text-decoration: none;
+            border: 1px solid transparent;
+        }
+
+        a:hover {
+            border: 1px solid var(--blue);
+            border-radius: 8px;
+        }
 
         .link {
             background: var(--gray-300);
@@ -43,7 +54,6 @@
             p {
                 font: 500 16px/140% "Maven Pro", serif;
                 color: var(--gray-500);
-                /* border: 1px solid green; */
             }
         }
     }
