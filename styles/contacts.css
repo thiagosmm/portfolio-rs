@@ -10,10 +10,16 @@
 
     padding: 128px 120px 200px;
 
-    header p#frase-contato{
-        font: var(--text-sm);
-        color: var(--gray-500);
+    header {
+        p {
+            color: var(--blue);
+        }
+        p#frase-contato{
+            font: var(--text-sm);
+            color: var(--gray-500);
+        }
     }
+
 
     #links {
         display: flex;
