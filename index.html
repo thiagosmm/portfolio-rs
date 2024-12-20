@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfólio</title>
     <link rel="stylesheet" href="styles/index.css">
+    <script src="script.js"></script>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -129,18 +130,20 @@
                     <img class="arrow-icon" src="assets/Arrow.png" alt="Arrow Icon">
                 </div>
             </a>
-            <a href="" target="_blank">
-                <div class="link">
-                    <img class="social-icon" src="assets/email.png" alt="Linkedin Icon">
-                    <p>Email</p>
-                    <img class="arrow-icon" src="assets/Arrow.png" alt="Arrow Icon">
-                </div>
-            </a>
-            <a href="" target="_blank">
+            <a href="#" onclick="event.preventDefault(); abreCurriculo()">
                 <div class="link">
                     <img class="social-icon" src="assets/email.png" alt="Linkedin Icon">
                     <p>Currículo</p>
                     <img class="arrow-icon" src="assets/Arrow.png" alt="Arrow Icon">
+                </div>
+            </a>
+            <a href="#" onclick="event.preventDefault(); copiaEmail()">
+                <div class="link">
+                    <img class="social-icon" src="assets/email.png" alt="Linkedin Icon">
+                    <p>Email</p>
+                    <div id="container-copy-icon">
+                        <img id="copy-icon" src="assets/copy-simple.svg" alt="Arrow Icon">
+                    </div>
                 </div>
             </a>
             <!-- <a href="">

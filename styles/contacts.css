@@ -61,6 +61,16 @@
                 color: var(--gray-500);
                 margin-left: 10px;
             }
+
+            #container-copy-icon {
+                box-sizing: border-box;
+                padding-right: 12px;
+
+                #copy-icon {
+                    width: 20px;
+                    height: 20px;
+                }
+            }
         }
     }
 }
