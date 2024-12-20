@@ -10,3 +10,8 @@ function copiaEmail() {
             console.error("Falha ao copiar o email", err)
         });
 }
+
+function abreCurriculo() {
+    const pdfUrl = "assets/CurrículoThiagoMonteiro - cópia.pdf";
+    window.open(pdfUrl, "_blank");
+}
