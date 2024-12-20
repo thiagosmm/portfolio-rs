@@ -80,6 +80,17 @@
                 color: var(--gray-500);
             }
         }
+
+        #python-logo {
+            box-sizing: border-box;
+            width: 32px;
+            height: 32px;
+            margin-right: 2px;
+            img {
+                height: 100%;
+            }
+        }
+
     }
 
     #arrow-icon {
