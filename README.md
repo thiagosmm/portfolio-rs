@@ -9,7 +9,7 @@ This project is a **portfolio landing page** built with **HTML, CSS, and JavaScr
 ## 🚀 Stack  
 
 ### 🔹 JavaScript  
-- **JS functions** – to copy the email and open the resume   
+- **Functions** – to copy the email and open the resume   
 
 ### 🎨 CSS  
 - **Custom input and button styling** – Well-styled form elements, buttons, and scrollbar. 
